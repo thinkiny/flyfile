@@ -1,5 +1,3 @@
-// graalVMNativeImageOptions ++= Seq("--no-fallback")
-// enablePlugins(GraalVMNativeImagePlugin)
 ThisBuild / organization := "com.thinkiny"
 ThisBuild / scalaVersion := "2.13.6"
 ThisBuild / version := "0.1.0-SNAPSHOT"
