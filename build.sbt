@@ -1,12 +1,12 @@
 ThisBuild / organization := "com.thinkiny"
-ThisBuild / scalaVersion := "2.13.6"
+ThisBuild / scalaVersion := "2.13.8"
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
 lazy val commonSettings = Seq(
   //graalVMNativeImageOptions ++= Seq("--no-fallback"),
   libraryDependencies ++= Seq(
-    "com.twitter" %% "finatra-http" % "21.2.0",
-    "ch.qos.logback" % "logback-classic" % "1.2.5",
+    "com.twitter" %% "finatra-http-server" % "22.1.0",
+    "ch.qos.logback" % "logback-classic" % "1.2.10",
     "net.lingala.zip4j" % "zip4j" % "2.9.0"
   ),
   scalacOptions ++= Seq("-feature", "-deprecation", "-Ywarn-unused"),
